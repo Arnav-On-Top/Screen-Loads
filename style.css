@@ -1,0 +1,40 @@
+body {
+    background-color: white;
+    font-family: Arial;
+    text-align: center;
+    padding-top: 100px;
+}
+.boxy {
+    width: 400px;
+    margin: auto;
+}
+.bar {
+    height: 30px;
+    background-color: lightgray;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.progressing {
+    height: 30px;
+    background-color: green;
+    animation: load 5s forwards;
+}
+@keyframes load {
+    from {width: 0%;}
+    to {width: 99%;}
+}
+.percent {
+    opacity: 0;
+    animation: showText 5s forwards;
+}
+@keyframes showText {
+    0% {
+        opacity: 0;
+    }
+    99% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
