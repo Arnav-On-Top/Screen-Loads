@@ -1,0 +1,3 @@
+Simple HTML and CSS Project on a loading screen that never loads...
+
+Built as a project for Hack Club's Boba Tee'd Up YSWS [You Ship We Ship] Program
